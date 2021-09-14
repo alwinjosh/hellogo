@@ -10,3 +10,11 @@ func TestAdd(t *testing.T) {
 	}
 
 }
+
+func TestSub(t *testing.T) {
+	var ans = Sub(50, 10)
+	if ans != 40 {
+		t.Errorf("Expected 60")
+	}
+
+}
